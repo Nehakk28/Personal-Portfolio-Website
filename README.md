@@ -80,3 +80,7 @@ The website is fully responsive and optimized for:
 - Laptop
 - Tablet
 - Mobile
+
+## Deploy link 
+
+nehaportfolio30.netlify.app
