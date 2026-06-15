@@ -1,0 +1,14 @@
+:root{
+
+    --bg:#04061d;
+    --card:#10152f;
+    --primary:#b84dff;
+    --white:#ffffff;
+    --gray:#d9d9d9;
+
+    --radius:10px;
+    --transition:0.3s;
+
+    --font:Arial,sans-serif;
+
+}

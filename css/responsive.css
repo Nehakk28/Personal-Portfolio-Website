@@ -1,0 +1,208 @@
+@media(max-width:1024px){
+
+.hero-image img{
+    width:500px;
+}
+
+.hero-text h1{
+    font-size:70px;
+}
+
+.hero-text h3{
+    font-size:45px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text{
+    width:100%;
+}
+
+.hero-text h1{
+    font-size:50px;
+}
+
+.hero-text h2{
+    font-size:35px;
+}
+
+.hero-text h3{
+    font-size:35px;
+}
+
+.hero-text p{
+    font-size:18px;
+}
+
+.hero-image img{
+    width:320px;
+    margin-top:40px;
+}
+
+.logo img{
+    width:65px;
+}
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:90px;
+    right:20px;
+    width:220px;
+    background:#10152f;
+    padding:20px;
+    border-radius:10px;
+    gap:20px;
+    text-align:center;
+    z-index:1000;
+}
+
+.nav-links.active{
+    display:flex;
+}
+.menu-btn{
+    display:block;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.social a{
+    font-size:30px;
+}
+
+.skill-grid,
+.project-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:480px){
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-text h3{
+    font-size:28px;
+}
+
+.hero-image img{
+    width:280px;
+}
+
+}
+
+
+@media(max-width:768px){
+
+.internship-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media(max-width:768px){
+
+.education-grid{
+    grid-template-columns:1fr;
+}
+
+#education h2{
+    font-size:40px;
+}
+
+}
+@media(max-width:768px){
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:90px;
+    right:20px;
+    background:#10152f;
+    padding:20px;
+    border-radius:10px;
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+}
+
+@media(max-width:768px){
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .social{
+        justify-content:center;
+    }
+
+    .buttons{
+        align-items:center;
+    }
+
+    .tech-stack{
+        justify-content:center;
+    }
+
+    .education-card,
+    .internship-card{
+        padding:20px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    #about img{
+        width:170px;
+        height:170px;
+    }
+
+    #about p{
+        font-size:18px;
+    }
+
+    .card{
+        height:auto;
+        padding:20px;
+    }
+
+    .project-card h3{
+        font-size:26px;
+    }
+
+    .project-card p{
+        font-size:18px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .top-btn{
+        width:45px;
+        height:45px;
+        font-size:22px;
+        bottom:15px;
+        right:15px;
+    }
+
+}
